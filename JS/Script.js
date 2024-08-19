@@ -10,7 +10,7 @@ $(document).ready(function(){
         $('body').css('color', 'White')
     }).text('Dark').addClass('btn btn-dark');;
     $("#alert-btn").click(function(){
-        $('#alert').html("<div class='alert alert-danger' role='alert'>Code Red!</div>")
-    }).text('Alert').addClass('m-1 btn btn-danger')
+        $('#alert').html("<div class='alert alert-danger my-1' role='alert'>Code Red!</div>")
+    }).text('Alert').addClass('mt-1 btn btn-danger')
 
 })
