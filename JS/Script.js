@@ -11,6 +11,5 @@ $(document).ready(function(){
     }).text('Dark').addClass('btn btn-dark');;
     $("#alert-btn").click(function(){
         $('#alert').html("<div class='alert alert-danger my-1' role='alert'>Code Red!</div>")
-    }).text('Alert').addClass('mt-1 btn btn-danger')
-
+    }).text('Alert').addClass('mt-1 btn btn-danger');
 })
